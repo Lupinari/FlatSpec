@@ -6,24 +6,24 @@ The code is written to be used with a Holoeye SLM and a Yokohama OSA. It is my i
 The following variables are inputs decided by the user:
 
 -OSA
-WL_i=5e-7 #inicial wavelength (m)
-WL_f=5.7e-7 #final wavelength (m)
-sample_points=801 # OSA sample points
+- WL_i=5e-7 #inicial wavelength (m)
+- WL_f=5.7e-7 #final wavelength (m)
+- sample_points=801 # OSA sample points
 
 -For WL calibrations
-Col_w=15 # width of pixel collumn 
-Col_i=0 # starting collumn for calibration
-Col_sampled=15 # how many samples to use in the wl calibration
+- Col_w=15 # width of pixel collumn 
+- Col_i=0 # starting collumn for calibration
+- Col_sampled=15 # how many samples to use in the wl calibration
 
 -For Gama calibrations
-Delta_GS=10 #step size with which Intensity vs. Grayscale Calibration will occur
-GS_max=256
-GS_min=0
+- Delta_GS=10 #step size with which Intensity vs. Grayscale Calibration will occur
+- GS_max=256
+- GS_min=0
 
 -data name
-DATANAME=2708 #marker to identify data
-SERIES=3 #marker to identify subset of data
-LOOPS=200 #number of loops
+- DATANAME=2708 #marker to identify data
+- SERIES=3 #marker to identify subset of data
+- LOOPS=200 #number of loops
 
 
 The following variables are saved throughout the code run ('SERIES' and 'DATANAME' are markers, defined by the user, to identify and differentiate experimental data): 
